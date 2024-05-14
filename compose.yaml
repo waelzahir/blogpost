@@ -1,0 +1,7 @@
+services:
+  app:
+    build: blogpost/
+    container_name: blogpost
+    ports:
+      - 3000:3000
+    restart: always
